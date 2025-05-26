@@ -1,0 +1,48 @@
+/* Estiliza o body para centralizar tudo com Flexbox */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* centro horizontal */
+    align-items: center;     /* centro vertical */
+    background-color: #023c46;
+    color: #022e36;
+    font-family: Arial, sans-serif;
+}
+
+/* Estiliza o form */
+form {
+    background-color: #f7f7f7b9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#options{
+    margin-bottom: 3px;
+}
+
+/* Estiliza inputs */
+input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botão de enviar */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #022e36;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

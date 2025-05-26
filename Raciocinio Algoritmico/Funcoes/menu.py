@@ -1,0 +1,10 @@
+def exibir_menu():
+    print("=== MENU DE OPÇÕES ===")
+    print("1. Juros Simples e Compostos")
+    print("2. Strings Util")
+    print("3. Estatística")
+    print("4. Verificações")
+    print("5. Operações Básicas e Avançadas")
+    print("6. Conversões de Tempo")
+    print("7. Validação de Senha")
+    print("0. Sair")
