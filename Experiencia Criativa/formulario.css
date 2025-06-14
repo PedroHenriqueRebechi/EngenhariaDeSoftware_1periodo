@@ -4,8 +4,10 @@ body {
     padding: 0;
     height: 100vh;
     display: flex;
-    justify-content: center; /* centro horizontal */
-    align-items: center;     /* centro vertical */
+    justify-content: center;
+    /* centro horizontal */
+    align-items: center;
+    /* centro vertical */
     background-color: #023c46;
     color: #022e36;
     font-family: Arial, sans-serif;
@@ -16,11 +18,11 @@ form {
     background-color: #f7f7f7b9;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 2px solid rgb(255, 255, 255);
 }
 
-#options{
+#options {
     margin-bottom: 3px;
 }
 
